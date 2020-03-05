@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/application_8.xsd" id="Application_ID" version="8">
+  <display-name>AppMozartWeb</display-name>
+  <module id="WebModule_1257870802161">
+    <web>
+      <web-uri>MozartHotelWeb.war</web-uri>
+      <context-root>Web</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>MozartNFse.jar</ejb>
+  </module>
+  <module>
+    <ejb>MozartModel.jar</ejb>
+  </module>
+</application>

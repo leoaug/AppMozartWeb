@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="AppMozartWeb">
+        <wb-resource deploy-path="/" source-path="/EarContent"/>
+        <dependent-module deploy-path="/" handle="module:/resource/MozartHotelWeb/MozartHotelWeb">
+            <dependent-object>WebModule_1257870802161</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MozartModel.jar" deploy-path="/" handle="module:/resource/MozartModel/MozartModel">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="MozartNFSe.jar" deploy-path="/" handle="module:/resource/MozartNFse/MozartNFse">
+            <dependent-object>EjbModule_1462251850004</dependent-object>
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>
